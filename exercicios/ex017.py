@@ -5,5 +5,5 @@ ca = float(input('Tamanho do cateto adjacente: '))
 print('O tamanho da hipotenusa é de {:.2f}' .format(sqrt(h)))
  """
 h = math.hypot(co, ca)
-print('O tamanho da hipotenusa é de {:.2f}'.format(h))
+print('O tamanho da hipotenusa é de \033[33m{:.2f}'.format(h))
 

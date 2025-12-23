@@ -5,4 +5,4 @@ a3 = input('Terceiro aluno: ')
 a4 = input('Quarto aluno: ')
 lista = [a1, a2, a3, a4]
 random.shuffle(lista)
-print('A ordem será: {}'.format(lista))
+print('A ordem será: \033[1;32m{}'.format(lista))

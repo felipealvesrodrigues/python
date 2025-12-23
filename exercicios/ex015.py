@@ -1,7 +1,7 @@
 c = int(input('Por quantos dias o carro foi alugado? '))
 km = float(input('Quantos quilômetros foram rodados com o carro? '))
 pago = (c * 60) + (km * 0.15)
-print('O total a pagar é de R${:.2f}'.format(pago))
+print('O total a pagar é de \033[1;31mR${:.2f}'.format(pago))
 
 #pago = (c * 60) + (km * 0.15) dava pra fazer assim também, bem mais fácil
  
